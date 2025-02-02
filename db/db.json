@@ -17,6 +17,42 @@
       "name": "atak",
       "email": "kjfdslfj@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "a742",
+      "name": "abel",
+      "email": "abel@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "53e1",
+      "name": "getahun",
+      "email": "gecho@gmail.com",
+      "password": "getch@123"
+    },
+    {
+      "id": "109a",
+      "name": "sam",
+      "email": "sam@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "fd8a",
+      "name": "hagos",
+      "email": "hagos@gmail.com",
+      "password": "asdf"
+    },
+    {
+      "id": "8d1e",
+      "name": "amaniuel",
+      "email": "ama@gmail.com",
+      "password": "ama"
+    },
+    {
+      "id": "58f9",
+      "name": "",
+      "email": "",
+      "password": ""
     }
   ]
 }

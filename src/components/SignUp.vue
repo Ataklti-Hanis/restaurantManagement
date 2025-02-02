@@ -10,6 +10,7 @@
       placeholder="Enter you password"
     />
     <button v-on:click="SignUp">Register</button>
+    <p><router-link to="./login">Sign In</router-link></p>
   </div>
 </template>
 <script>
@@ -33,31 +34,18 @@ export default {
 
       console.warn(result);
       if (result.status == 201) {
-        alert("Signed up sucessfully");
+        localStorage.setItem("user-info", JSON.stringify(result.data));
+        this.$router.push({ name: "HomePage" });
       }
     },
+  },
+  mounted() {
+    let user = localStorage.getItem("user-info");
+    if (user) {
+      this.$router.push({ name: "HomePage" });
+    }
   },
 };
 </script>
 
-<style>
-.logo {
-  width: 100px;
-}
-.register input {
-  width: 300px;
-  height: 40px;
-  padding-left: 20px;
-  display: block;
-  margin: 30px auto;
-  border: 1px solid skyblue;
-}
-.register button {
-  width: 320px;
-  height: 40px;
-  border: 1px solid skyblue;
-  background-color: skyblue;
-  color: #fff;
-  cursor: pointer;
-}
-</style>
+<style></style>
