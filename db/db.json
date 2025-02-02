@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "502a",
+      "email": "ataklti@gmail.com",
+      "name": "ataklti hanis",
+      "password": "abc@123"
+    },
+    {
+      "id": "bfe6",
+      "email": "ataklti@gmail.com",
+      "name": "ataklti hanis",
+      "password": "abc@123"
+    },
+    {
+      "id": "1f40",
+      "name": "atak",
+      "email": "kjfdslfj@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
