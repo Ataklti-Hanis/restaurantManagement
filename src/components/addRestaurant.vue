@@ -2,16 +2,23 @@
   <HeaderPage />
   <h1>Hello user, welcome on Add Restaurant page</h1>
   <form class="add" action="">
-    <input type="text" placeholder="Enter name" v-model="restaurant.name" />
+    <input
+      type="text"
+      placeholder="Enter name"
+      v-model="restaurant.name"
+      name="name"
+    />
     <input
       type="text"
       placeholder="Enter address"
       v-model="restaurant.address"
+      name="address"
     />
     <input
       type="text"
       placeholder="Enter contact"
       v-model="restaurant.contact"
+      name="contact"
     />
     <button type="button" @click="addRestaurant">Add new Restaurant</button>
   </form>
