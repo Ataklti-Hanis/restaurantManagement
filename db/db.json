@@ -54,5 +54,25 @@
       "email": "",
       "password": ""
     }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Burger king",
+      "contact": 1111,
+      "address": "Noida sector 50"
+    },
+    {
+      "id": 2,
+      "name": "Dominos",
+      "contact": 3333,
+      "address": "Dominos sector 50"
+    },
+    {
+      "id": 3,
+      "name": "addis Hotel",
+      "contact": 4444,
+      "address": "bole Cp0"
+    }
   ]
 }
