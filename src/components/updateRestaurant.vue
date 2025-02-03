@@ -20,7 +20,7 @@
       v-model="restaurant.contact"
       name="contact"
     />
-    <button type="button" @click="addRestaurant">Update Restaurant</button>
+    <button type="button" @click="update">Update Restaurant</button>
   </form>
 </template>
 <script>
@@ -39,6 +39,22 @@ export default {
         contact: "",
       },
     };
+  },
+  methods: {
+    async update() {
+      console.warn(this.restaurant);
+      const result = await axios.put(
+        "http://localhost:3000/restaurant/" + this.$route.params.id,
+        {
+          name: this.restaurant.name,
+          address: this.restaurant.address,
+          contact: this.restaurant.contact,
+        }
+      );
+      if (result.status == 200) {
+        this.$router.push({ name: "HomePage" });
+      }
+    },
   },
   async mounted() {
     let user = localStorage.getItem("user-info");
