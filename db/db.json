@@ -75,12 +75,6 @@
       "address": "bole Cp0"
     },
     {
-      "id": "774e",
-      "name": "abbc restaurant",
-      "address": "addis abeba, saris",
-      "contact": 555487841
-    },
-    {
       "id": "4198",
       "name": "sheraton",
       "address": "airport road",
@@ -97,12 +91,6 @@
       "address": "lamberet",
       "contact": "5445454",
       "id": "9a49"
-    },
-    {
-      "id": "57d8",
-      "name": "",
-      "address": "",
-      "contact": ""
     }
   ]
 }
